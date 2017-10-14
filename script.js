@@ -79,6 +79,22 @@ $(document).ready(function() {
     $('.clear').on('click', function() {
     	$('.block').css("background-color", "rgb(255, 255, 255)");
     });
+	
+	//Pixel Sizer Button
+    $('.size').on('click', function() {
+		gridSize = prompt("Resize your pixel!  Enter value from 4-64!", "16");
+		
+		if (gridSize >= 4 && gridSize <= 64){
+		    $('#container').empty();
+		    drawGrid();
+		    drawBlack();
+		}
+		else {
+		   alert("Sorry! Invalid size!"); 
+		}
+		
+	});	
+	
 	   
    
     /*
