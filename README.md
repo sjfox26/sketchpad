@@ -1,3 +1,3 @@
 A simple sketchpad created using HTML, CSS, and Javascript (Jquery).
 
-For the Odin Project!
+From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)
