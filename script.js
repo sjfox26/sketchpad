@@ -28,7 +28,7 @@ function eraseBlock() {
     });
 }
 
-	
+/*	
 function drawGrid () {
     for(var x = 0; x < 16; x++) {
         for(var y = 0; y < 16; y++) {
@@ -37,11 +37,22 @@ function drawGrid () {
         }
     }
 }
+*/
 
+function drawGrid(){
+	for (var i = 0; i < gridSize * gridSize; i++) {
+		$("#container").append('<div class="block"></div>')
+	}
+	$(".block").css({
+		'width': $('#container').width() / gridSize,
+		'height': $('#container').height() / gridSize
+	})
+}
 
 $(document).ready(function() {
     
     
+    gridSize = 16;
     
     drawGrid();
     
