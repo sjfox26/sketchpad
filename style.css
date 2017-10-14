@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+	font-style: Italic;
+	text-align: center;
+	margin-top: 60px;
+}
+
+p {
+	font-style: Italic;
+	text-align: center;
+}
+
+#buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#wrapper {
+    font-size: 0;
+	margin-top: 30px;
+}
+
+#container {
+   
+    font-size: 0;
+    background-color: black;
+    height: 384px;
+    width: 384px;
+    margin-right: auto;
+	margin-left: auto;
+	
+}
+.block {
+    
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    display: inline-block;
+ 	float: left;
+ 	
+}
